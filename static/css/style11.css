@@ -1,0 +1,1601 @@
+﻿.msgheader.header {
+    height: 60px;
+    background-color: #fff;
+}
+
+.msgheader.header .logo {
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+
+}
+
+.msgheader.header .logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+}
+
+.haoZip-banner {
+    height: 500px;
+    background-position: center;
+    background-size: 1920px 500px;
+    position: relative;
+    background-image: url('https://sxac.lshnhn.cn/static/image/haoZipBanner.png')
+}
+
+.haoZip-banner .info {
+    padding-top: 90px;
+    text-align: center;
+    color: #fff;
+}
+
+.haoZip-banner .info h1 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.haoZip-banner .info p {
+    font-size: 24px;
+    margin-top: 30px;
+    line-height: 36px;
+}
+
+.haoZip-banner .download {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.haoZip-banner .download .down {
+    display: inline-block;
+    width: 190px;
+    height: 74px;
+    line-height: 74px;
+    padding-left: 106px;
+    font-size: 29px;
+    color: #fff;
+    text-align: left;
+    font-weight: 400;
+    background-image: url('https://sxac.lshnhn.cn/static/image/btn.png');
+    background-size: 296px 74px;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.haoZip-banner .download .down:hover {
+    background-image: url('https://sxac.lshnhn.cn/static/image/btn_hover.png')
+}
+
+.haoZip-character .intro {
+    margin-left: 53px;
+    margin-top: 70px;
+    margin-right: -43px;
+}
+
+.haoZip-character .intro .item {
+    float: left;
+    cursor: pointer;
+    margin-right: 98px;
+}
+
+.haoZip-character .more {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.copy {
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 25px;
+}
+
+.haoZip .copy {
+    margin-top: 35px;
+}
+
+
+/*wifi共享*/
+.wifi-banner {
+    height: 730px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px 730px;
+    background-color: red;
+    background-image: url('https://sxac.lshnhn.cn/static/image/wifi_banner.png')
+}
+
+.wifi-banner .logo {
+    padding-top: 11px;
+}
+
+.wifi-banner .download-box {
+    text-align: center;
+    margin-top: 79px;
+}
+
+.wifi-share .download-box a {
+    display: inline-block;
+    width: 200px;
+    height: 74px;
+    text-align: left;
+    color: #0E85FE;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 74px;
+    background-image: url('https://sxac.lshnhn.cn/static/image/wifi_btn.png');
+    background-position: left top;
+    background-size: 330px 74px;
+    padding-left: 130px;
+}
+
+.wifi-banner .download-box a:hover {
+    background-image: url('https://sxac.lshnhn.cn/static/image/wifi_btn_hover.png');
+}
+
+.wifi-banner .download-box .version {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.wifi-feature {
+    margin-top: 85px;
+}
+
+.wifi-feature .intro {
+    margin-left: 80px;
+}
+
+.wifi-feature .gongneng {
+    margin-top: 80px;
+    font-size: 17px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.wifi-feature .download-box {
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.wifi-share .wifi-feature .download-box a {
+    background-image: url('https://sxac.lshnhn.cn/static/image/wifi_down2.png');
+}
+
+.wifi-share .wifi-feature .download-box a:hover {
+    background-image: url('https://sxac.lshnhn.cn/static/image/wifi_down2_hover.png')
+}
+
+
+/*迅雷*/
+.xunlei-body {
+    width: 100%;
+    height: 100vh;
+}
+
+.xunlei {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url('https://sxac.lshnhn.cn/static/image/xunleiBg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.xunlei .width-1200 {
+    position: relative;
+    height: inherit;
+    text-align: center;
+    max-width: 1200px;
+    width: 100% !important;
+}
+
+.xunlei .info {
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    width: 100%;
+}
+
+.xunlei .info h1 {
+    font-size: 51px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.xunlei .info p {
+    font-size: 24px;
+    line-height: 1.8;
+}
+
+.xunlei .down {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    text-align: center
+}
+
+.xunlei .down a {
+    display: inline-block;
+    width: 250px;
+    height: 112px;
+    background: url('https://sxac.lshnhn.cn/static/image/xunlei_down.png') no-repeat left top;
+    background-size: 396px 112px;
+    line-height: 112px;
+    text-align: left;
+    padding-left: 146px;
+    font-size: 31px;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.xunlei .down a:hover {
+    background-image: url('https://sxac.lshnhn.cn/static/image/xunlei_hover.png');
+}
+
+.xunlei .text {
+    position: absolute;
+    bottom: 7%;
+    font-size: 28px;
+    width: 100%;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+}
+
+.xunlei-body .copy {
+    position: fixed;
+    bottom: 0.3%;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1600px) {
+    .xunlei .info {
+        top: 32%;
+    }
+
+    .xunlei {
+        background: url('https://sxac.lshnhn.cn/static/image/xunleiBg.png') no-repeat center -80px fixed;
+    }
+
+    .xunlei .down {
+        top: 68%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .xunlei .info {
+        top: 23%;
+    }
+
+    .xunlei .text {
+        font-size: 25px;
+    }
+
+    .xunlei-body .copy {
+        bottom: 0.2%;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .xunlei .info {
+        top: 27%;
+    }
+
+    .xunlei .text {
+        font-size: 25px;
+    }
+
+    .xunlei-body .copy {
+        bottom: 0.2%;
+        margin-bottom: 0px;
+    }
+}
+
+/*驱动精灵*/
+.qudong-banner {
+    height: 500px;
+    background-position: center;
+    background-size: 1920px 500px;
+    position: relative;
+    background-image: url('https://sxac.lshnhn.cn/static/image/qudong_banner.png');
+}
+
+.qudong-banner .name {
+    margin-left: 13px;
+    color: #fff;
+    padding-top: 140px;
+}
+
+.qudong-banner .name h1 {
+    font-size: 64px;
+    letter-spacing: 8px;
+    font-weight: 100;
+}
+
+.qudong-banner .name h1 span {
+    font-size: 34px;
+    line-height: 2
+}
+
+.qudong-banner .version {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.qudong-body .down a {
+    display: inline-block;
+    width: 260px;
+    height: 80px;
+    background: url('https://sxac.lshnhn.cn/static/image/qudong_down1.png') no-repeat left top;
+    background-size: 416px 80px;
+    color: #fff;
+    text-align: left;
+    letter-spacing: 5px;
+    font-size: 32px;
+    padding-left: 156px;
+    line-height: 80px;
+}
+
+.qudong-body .down a:hover {
+    background-image: url('https://sxac.lshnhn.cn/static/image/qudong_down1_hover.png');
+}
+
+.qudong-list .list-container {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 130px;
+}
+
+.qudong-list .list-item {
+    margin-bottom: 28px;
+    position: relative
+}
+
+.qudong-list .list-item .left-info {
+    margin-right: 205px;
+    height: 140px;
+    color: #333;
+    font-size: 20px;
+    line-height: 1.8;
+
+
+}
+
+.qudong-list .list-item .left-info>div {
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+
+}
+
+.qudong-list .right-img {
+    width: 140px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.qudong-list .list-item .left-info .tit {
+    font-size: 24px;
+    font-weight: 100;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.qudong-list .right-img img {
+    display: block;
+}
+
+.qudong-body .down2 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.qudong-body .down2 a {
+    color: #3E7FDB;
+    background-image: url("https://sxac.lshnhn.cn/static/image/qudong_down2.png");
+}
+
+.qudong-body .down2 a:hover {
+    background-image: url('https://sxac.lshnhn.cn/static/image/qudong_down2_hover.png')
+}
+
+
+/*微信*/
+
+/* .weixin .bg {
+  display: block;
+  min-width: 1200px;
+  max-width: 100%;
+
+} */
+.weixin_con {
+    height: 1402px;
+    /* min-height: 100%;
+    max-height: 1420px; */
+    /* width: 100%; */
+    background: url('https://sxac.lshnhn.cn/static/image/weixin_bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+.weixin {
+    position: relative;
+}
+
+.weixin_con .width-1200 {
+    position: relative;
+    height: inherit;
+}
+
+.weixin_con .weixin-pro {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 8%;
+}
+
+.weixin .weixin_logo {
+    width: 516px;
+    height: 238px;
+    position: absolute;
+    right: 67px;
+    top: 202px;
+    text-align: center;
+}
+
+.weixin .weixin_logo .download {
+    display: inline-block;
+    width: 268px;
+    height: 88px;
+    background: url('https://sxac.lshnhn.cn/static/image/weixinDownload.png') no-repeat left top;
+    background-size: 100% 100%;
+    overflow: hidden;
+    margin-top: 35px;
+
+}
+
+.weixin .weixin_logo .download div {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    height: inherit;
+    font-size: 24px;
+    line-height: 1;
+    text-align: left;
+    padding-left: 100px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.weixin .weixin_logo .download span {
+    font-size: 16px;
+    font-weight: 100;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 7px;
+    display: inline-block;
+    width: 155px;
+}
+
+.weixin .copy {
+    position: absolute;
+    bottom: 0.5%;
+    color: #fff;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+/*美图秀秀*/
+.meitu-body {
+    width: 100%;
+    height: 100vh;
+}
+
+.meitu-body .meitu {
+    position: relative;
+}
+
+.meitu-body .meitu .width-1200 {
+    height: inherit;
+    position: relative;
+    z-index: 600;
+    width: 100% !important;
+    max-width: 1200px;
+}
+
+.meitu-body .bg-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.meitu-body .bg1 {
+    background-image: url('https://sxac.lshnhn.cn/static/image/meitubg1.png');
+    z-index: 500;
+}
+
+.meitu-body .bg2 {
+    background-image: url('https://sxac.lshnhn.cn/static/image/meitubg2.png');
+    z-index: 400;
+}
+
+.meitu-body .bg3 {
+    background-image: url('https://sxac.lshnhn.cn/static/image/meitubg3.png');
+    z-index: 300;
+}
+
+.meitu .logo {
+    margin-left: 6px;
+    padding-top: 20px;
+}
+
+.meitu .logo img {
+    display: block;
+}
+
+.meitu-body .copy {
+    position: fixed;
+    bottom: 2%;
+    z-index: 550;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.meitu .content {
+    padding-right: 36px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-top: 7%;
+}
+
+.meitu .content .logo2,
+.meitu .content .name {
+    text-align: right
+}
+
+.meitu .content .logo2 {
+    padding-right: 20px;
+}
+
+.meitu .content .name {
+    margin-top: 2%;
+    padding-right: 15px;
+}
+
+.meitu .content .down-load>div {
+    display: table-cell;
+    height: 121px;
+    vertical-align: middle
+}
+
+.meitu .content .down {
+    display: inline-block;
+    width: 158px;
+    height: 82px;
+    background: url('https://sxac.lshnhn.cn/static/image/meituDownload1.png') no-repeat left top;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 82px;
+    letter-spacing: 4px;
+    padding-left: 100px;
+}
+
+.meitu .content .down:hover {
+    background-image: url('https://sxac.lshnhn.cn/static/image/meituDownload2.png');
+}
+
+.meitu .content .more {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+
+    /* .meitu img {
+      transform: scale(0.6);
+      height: auto;
+    } */
+    .meitu .content .logo2 img {
+        width: 180px;
+    }
+
+    .meitu .content .name img {
+        width: 240px;
+    }
+
+    .meitu .content {
+        margin-top: 1%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .meitu .content .logo2 img {
+        width: 200px;
+    }
+
+    .meitu .content .name img {
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .meitu .content .logo2 img {
+        width: 220px;
+    }
+
+    .meitu .content .name img {
+        width: 300px;
+    }
+}
+
+.sem_top {
+    width: 100%;
+    height: 600px;
+    background: url(https://sxac.lshnhn.cn/static/image/bk.png) center no-repeat;
+}
+
+.sem_top .headers {
+    height: 60px;
+    line-height: 60px;
+}
+
+.sem_top .headers img {
+    display: inline-block;
+    width: 159px;
+    height: 44px;
+    margin-top: 15px;
+}
+
+.sem_top .bigones .right {
+    float: right;
+    margin-top: 116px;
+    width: 320px;
+    margin-right: 169px;
+}
+
+.sem_top .bigones .title {
+    font-size: 56px;
+    color: #fff;
+    width: 249px;
+    height: 103px;
+    margin-left: 33px;
+}
+
+.sem_top .down {
+    width: 326px;
+    margin: 0 auto;
+}
+
+.sem_top .down a {
+    display: block;
+    width: 326px;
+    height: 88px;
+    line-height: 76px;
+    text-indent: 42px;
+    font-size: 34px;
+    background: url(https://sxac.lshnhn.cn/static/image/btn11.png) center center no-repeat;
+    font-family: MicrosoftYaHei-Bold;
+    color: white;
+    text-align: center;
+}
+
+.sem_top .down a:hover {
+    background: url(https://sxac.lshnhn.cn/static/image/btn22.png) center center no-repeat;
+}
+
+.sem_top .bigones p {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sem_top .bigones p span {
+    padding: 0 5px;
+}
+
+.s-cion {
+    margin-top: 100px;
+}
+
+.s-cion img {
+    display: block;
+    width: 855px;
+    height: 576px;
+    margin: 0 auto;
+}
+
+.mb60 {
+    margin-top: 60px !important;
+}
+
+.copy {
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 25px;
+}
+
+.sem_top .mbcopy {
+    margin-top: 141px;
+}
+
+.sem_sougou .s_header {
+    height: 60px;
+    line-height: 60px;
+}
+
+.s_header img {
+    vertical-align: middle;
+}
+
+.s_banner {
+    width: 100%;
+    height: 1264px;
+    background: url(https://sxac.lshnhn.cn/static/image/bk_sougou.png)no-repeat;
+}
+
+.s_banner .intro {
+    width: 500px;
+    float: right;
+    margin-top: 139px;
+}
+
+.s_banner .intro .title {
+    font-size: 64px;
+    color: #fff;
+    letter-spacing: 11px;
+}
+
+.s_banner .intro .p1 {
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    text-indent: 150px;
+    margin-top: 18px;
+    margin-bottom: 28px;
+}
+
+.s_banner .intro .span1 {
+    width: 92px;
+    height: 2px;
+    display: inline-block;
+    background: url(https://sxac.lshnhn.cn/static/image/line.png)no-repeat;
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+
+.s_banner .intro .span2 {
+    width: 92px;
+    height: 2px;
+    display: inline-block;
+    background: url(https://sxac.lshnhn.cn/static/image/line.png)no-repeat;
+    position: absolute;
+    right: 70px;
+    top: 22px;
+}
+
+.s_banner .intro .p2 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.s_banner .intro .sp {
+    color: #fff;
+    font-size: 14px;
+}
+
+.s_banner .intro .sp span {
+    padding-right: 25px;
+}
+
+.mb {
+    margin-top: 20px;
+}
+
+.s_bottom .down {
+    width: 294px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.intro .down a {
+    display: block;
+    width: 294px;
+    height: 74px;
+    line-height: 74px;
+    text-indent: 50px;
+    font-size: 28px;
+    background: url(https://sxac.lshnhn.cn/static/image/btn_red.png) center center no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.intro .down a:hover {
+    background: url(https://sxac.lshnhn.cn/static/image/btn_red_hover.png) center center no-repeat;
+}
+
+.s_bottom {
+    margin-top: 90px;
+}
+
+.mbcopy-90 {
+    margin-top: 90px;
+}
+
+.sem_qudong {
+    width: 100%;
+    height: 500px;
+    background: url(https://sxac.lshnhn.cn/static/image/bk_qudong.png) center center no-repeat;
+}
+
+.sem_qudong .intro {
+    padding-top: 149px;
+    padding-left: 37px;
+}
+
+.sem_qudong .title {
+    font-size: 54px;
+    color: #fff;
+    letter-spacing: 10px;
+}
+
+.sem_qudong .p2 {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.qudao a {
+    display: inline-block;
+    width: 296px;
+    height: 74px;
+    line-height: 74px;
+    text-indent: 42px;
+    font-size: 29px;
+    background: url(https://sxac.lshnhn.cn/static/image/btn_qd.png) center center no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.qudao a:hover {
+    background: url(https://sxac.lshnhn.cn/static/image/btn_qd_hover.png) center center no-repeat;
+}
+
+.sem_pics {
+    margin-top: 40px;
+}
+
+.sem_pics img {
+    width: 1200px;
+    height: 368px;
+}
+
+.sem_sougou .article {
+    margin-top: 50px;
+    font-size: 17px;
+    color: #333;
+}
+
+.sem_sougou .article p {
+    line-height: 30px;
+}
+
+.sem_qu_bottom {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sem_liebao {
+    width: 100%;
+    height: 534px;
+    background: url(https://sxac.lshnhn.cn/static/image/liebao_bk.png) center center no-repeat;
+}
+
+.sem_liebao .liebao_logo {
+    display: block;
+    padding-top: 10px;
+}
+
+.sem_liebao .down a {
+    display: inline-block;
+    width: 390px;
+    height: 74px;
+    line-height: 74px;
+    text-indent: 50px;
+    font-size: 28px;
+    background: url(https://sxac.lshnhn.cn/static/image/btn_liebao.png) center center no-repeat;
+    color: #ED6906;
+    text-align: center;
+}
+
+.sem_liebao .down a:hover {
+    background: url(https://sxac.lshnhn.cn/static/image/btn_leibao_hover.png) center center no-repeat;
+}
+
+.sem_liebao_h {
+    position: relative;
+    height: 534px;
+}
+
+.sem_liebao_h .down {
+    position: absolute;
+    right: 80px;
+    bottom: 82px;
+}
+
+.sem_liebao_ar {
+    margin-top: 39px;
+    margin-bottom: 80px;
+    font-size: 17px;
+    color: #333;
+}
+
+.sem_liebao_ar p {
+    line-height: 30px;
+}
+
+.leibao_icon img {
+    width: 1040px;
+    height: 440px;
+    display: block;
+    margin: 0 auto;
+}
+
+.sem_leibao_bottom {
+    text-align: center;
+    margin-top: 69px;
+    margin-bottom: 51px;
+}
+
+.sem_leibao_bottom a {
+    display: inline-block;
+    width: 344px;
+    height: 74px;
+    line-height: 74px;
+    font-size: 28px;
+    background: url(https://sxac.lshnhn.cn/static/image/btn_lb.png) center center no-repeat;
+    color: #ED6906;
+    text-align: center;
+}
+
+.sem_leibao_bottom a:hover {
+    background: url(https://sxac.lshnhn.cn/static/image/btn_lb_hover.png) center center no-repeat;
+}
+
+.sem_kugou {
+    width: 100%;
+    height: 480px;
+    background: url(https://sxac.lshnhn.cn/static/image/bk_kugou.png) center center no-repeat;
+}
+
+.kugou_top .kugou_logo {
+    display: block;
+    padding-top: 10px;
+}
+
+.sem_kugou .title img {
+    width: 444px;
+    height: 143px;
+    display: block;
+    margin: 58px auto;
+}
+
+.kugou_a .down {
+    text-align: center;
+}
+
+.kugou_a .down a {
+    display: inline-block;
+    width: 326px;
+    height: 88px;
+    line-height: 79px;
+    font-size: 28px;
+    text-indent: 20px;
+    background: url(https://sxac.lshnhn.cn/static/image/btn_kugou.png) center center no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.kugou_a .down a:hover {
+    background: url(https://sxac.lshnhn.cn/static/image/btn_kugou_hover.png) center center no-repeat;
+}
+
+.cugou_pic_main {
+    display: block;
+    margin: 50px auto;
+}
+
+.kugou_icon {
+    margin-bottom: 121px;
+}
+
+.kugou_icon img {
+    width: 936px;
+    height: 528px;
+    display: block;
+    margin: 0 auto;
+}
+
+.aqiyi_top {
+    width: 100%;
+    height: 798px;
+    background: url(https://sxac.lshnhn.cn/static/image/aiqiy_bk.png) center center no-repeat;
+}
+
+.aqiyi_top_left {
+    float: left;
+    width: 619px;
+    height: 505px;
+}
+
+.aqiyi_top_left {
+    width: 619px;
+    height: 505px;
+}
+
+.mb158 {
+    padding-top: 158px;
+}
+
+.aqiyi_top_right {
+    float: left;
+    margin-top: 95px;
+    margin-left: 73px;
+}
+
+.adown a {
+    display: inline-block;
+    width: 308px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    text-indent: 20px;
+    background: url(https://sxac.lshnhn.cn/static/image/aqiyi_btn.png) center center no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.adown a:hover {
+    background: url(https://sxac.lshnhn.cn/static/image/aiqiyi_btn_hover.png) center center no-repeat;
+}
+
+.down_ju {
+    margin-top: 60px;
+    margin-left: 52px;
+}
+
+.aqiyi_top_right p {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.aqiyi_middle {
+    width: 100%;
+    height: 440px;
+    background: url(https://sxac.lshnhn.cn/static/image/aqiyi_middle.png) center center no-repeat;
+}
+
+.aqiyi_middle img {
+    display: block;
+    width: 543px;
+    height: 71px;
+    padding-top: 144px;
+    margin-left: 614px;
+}
+
+.aqiyi_middle .adown {
+    margin-top: 60px;
+    margin-left: 614px;
+}
+
+.aqiyi_bottom {
+    width: 100%;
+    height: 440px;
+    background: url(https://sxac.lshnhn.cn/static/image/aiqiyi_bottom.png) center center no-repeat;
+}
+
+.aqiyi_bottom img {
+    display: block;
+    width: 685px;
+    height: 73px;
+    padding-top: 147px;
+}
+
+.aqiyi_bottom .adown {
+    margin-top: 30px;
+}
+
+.tqq_top {
+    width: 100%;
+    height: 900px;
+    background: url(https://sxac.lshnhn.cn/static/image/tqq_top.png) center center no-repeat;
+}
+
+.tqq_top .qq_logo1 {
+    width: 94px;
+    height: 45px;
+    display: block;
+    padding-top: 34px;
+}
+
+.tqq_top_all {
+    margin-top: 195px;
+}
+
+.tqq_top_left {
+    float: left;
+    width: 452px;
+}
+
+.tqq_top_right {
+    float: left;
+    margin-left: 68px;
+}
+
+.tqq_top_right .bann {
+    font-size: 14px;
+    color: #333;
+}
+
+.tqq_top_right .bann p {
+    line-height: 2;
+}
+
+.tqq_top_right .bann p span {
+    display: inline-block;
+    width: 190px;
+}
+
+.tqq_top_right .xitong {
+    position: relative;
+    height: 60px;
+}
+
+.tqq_top_right .xitong .img1 {
+    position: absolute;
+    width: 110px;
+    height: 16px;
+    left: 70px;
+    top: 6px;
+}
+
+.tqq_top_right .xitong .img2 {
+    position: absolute;
+    width: 110px;
+    height: 16px;
+    left: 230px;
+    top: 8px;
+}
+
+.tqq_top_right .xitong .img3 {
+    position: absolute;
+    width: 110px;
+    height: 16px;
+    left: 69px;
+    top: 30px;
+}
+
+.tqq_top_right .xitong .img4 {
+    position: absolute;
+    width: 110px;
+    height: 16px;
+    left: 231px;
+    top: 31px;
+}
+
+.down_qq a {
+    display: inline-block;
+    width: 282px;
+    height: 77px;
+    line-height: 77px;
+    font-size: 30px;
+    text-indent: 20px;
+    background: url(https://sxac.lshnhn.cn/static/image/qq_btn.png) center center no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.mt_down_qq {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.tqq_bottom {
+    width: 100%;
+    height: 974px;
+    background: url(https://sxac.lshnhn.cn/static/image/tqq_bottom.png) center center no-repeat;
+}
+
+.tqq_bottom_1 {
+    margin-top: 230px;
+    margin-left: 9px;
+}
+
+.tqq_bottom_1 a {
+    display: inline-block;
+    width: 282px;
+    height: 77px;
+    line-height: 77px;
+    background: url(https://sxac.lshnhn.cn/static/image/qq_btn.png) center center no-repeat;
+    margin-bottom: 10px;
+    margin-left: 56px;
+}
+
+.tqq_bottom_1 p span {
+    display: inline-block;
+    margin-top: 47px;
+    font-size: 24px;
+    color: #888;
+    padding-left: 100px;
+    width: 315px;
+}
+
+.tqq_bottom .tqq_bottom_2 {
+    margin-left: 104px;
+    margin-top: 63px;
+}
+
+.tqq_bottom .copy {
+    margin-top: 490px;
+}
+
+.muban_top {
+    width: 100%;
+    height: 578px;
+    background: url(https://sxac.lshnhn.cn/static/image/360_mubanner_bk.png)center center no-repeat;
+    color: #fff;
+}
+
+.muban_top_banner .header,
+.muban_top2 .header {
+    height: 60px;
+    line-height: 60px;
+}
+
+.muban_top_banner .header img {
+    width: 42px;
+    height: 42px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.muban_top_banner .title {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.muban_top_banner .header span {
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    font-weight: bold;
+    color: #333;
+}
+
+.muban_top .introduction {
+    margin-top: 130px;
+    margin-left: 668px;
+}
+
+.muban_top .introduction .p1 {
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.muban_top .introduction .p1 span {
+    display: inline-block;
+    width: 215px;
+}
+
+.muban_a a {
+    display: inline-block;
+    width: 300px;
+    height: 76px;
+    line-height: 76px;
+    font-size: 30px;
+    text-indent: 20px;
+    background: url(https://sxac.lshnhn.cn/static/image/360_muban_btn.png) center center no-repeat;
+    color: #fff;
+    text-align: center;
+    margin-top: 66px;
+    margin-left: 30px;
+}
+
+.muban_a a:hover {
+    background: url(https://sxac.lshnhn.cn/static/image/now_hover_btn.png) center center no-repeat;
+}
+
+.muban_middle {
+    height: 380px;
+}
+
+.muban_middle_left {
+    float: left;
+    width: 327px;
+    height: 246px;
+    margin-top: 94px;
+}
+
+.muban_middle_left img {
+    width: 250px;
+}
+
+.muban_middle_right {
+    float: left;
+    margin-left: 65px;
+    margin-top: 141px;
+    width: 789px;
+}
+
+.muban_middle_right p {
+    font-size: 18px;
+    color: #333;
+    text-indent: 30px;
+    line-height: 35px;
+    letter-spacing: 5px;
+}
+
+.muban_bottom {
+    width: 100%;
+    height: 362px;
+    background: #efefef;
+    padding-top: 60px;
+}
+
+.muban_bottom_btn a {
+    width: 300px;
+    height: 76px;
+    line-height: 76px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 82px;
+    margin-bottom: 14px;
+}
+
+.muban_bottom_btn .a1 {
+    background: #3f3ee2;
+}
+
+.muban_bottom_btn .a2 {
+    background: #149bf1;
+}
+
+.muban_bottom_btn .a3 {
+    background: #ff9018;
+}
+
+.muban_bottom_btn .a1:hover {
+    background: #3c5ef1;
+}
+
+.muban_bottom_btn .a2:hover {
+    background: #3db4ff;
+}
+
+.muban_bottom_btn .a3:hover {
+    background: #ffa23e;
+}
+
+.mbcopy-130 {
+    margin-top: 220px;
+}
+
+.muban_top2 {
+    width: 100%;
+    height: 635px;
+    background: url(https://sxac.lshnhn.cn/static/image/muban_top2_bk.png) center center no-repeat;
+    color: #333;
+}
+
+.muban_top2_top {
+    margin-top: 142px;
+    margin-left: 668px;
+}
+
+.muban_btn2 a {
+    display: inline-block;
+    width: 300px;
+    height: 76px;
+    line-height: 76px;
+    font-size: 30px;
+    text-indent: 30px;
+    background: url(https://sxac.lshnhn.cn/static/image/muban2_btn1.png) center center no-repeat;
+    color: #fff;
+    text-align: center;
+    margin-top: 66px;
+    margin-left: 30px;
+}
+
+.muban_btn2 a:hover {
+    background: url(https://sxac.lshnhn.cn/static/image/muban2_btn2.png) center center no-repeat;
+}
+
+.muban2_bottom {
+    margin-top: 57px;
+    background: #fff;
+    padding: 20px 100px;
+}
+
+
+.muban2_bottom .title {
+    font-size: 24px;
+    color: #333;
+    line-height: 60px;
+    border-bottom: 2px solid #FAC035;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.muban2_bottom .article {
+    font-size: 14px;
+    color: #333;
+    text-indent: 30px;
+    line-height: 30px;
+}
+
+.muban2_bottom img {
+    max-width: 100%;
+    display: block;
+    width: 530px;
+    height: 340px;
+    margin: 30px auto;
+}
+
+.muban2_bottom .buzou {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mbcopy-40 {
+    margin-top: 40px;
+}
+/* 初始化   米云下载首页*/
+.fl{float: left;}
+.fr{float: right;}
+.mwidth{width: 1038px;margin-left: auto;margin-right: auto;}
+/*header*/
+.header {height: 86px;overflow: hidden;width: 100%;position:relative;}
+.mwidth .header {display: flex;align-items: center;justify-content: space-between;}
+.header .logo,.slogo,.softlogo,.fslogo,.fiveone_logo,.ruanjian_logo,.cqhongtjy_logo {float: left;padding-top: 6px;}
+.header .logo a {display: block;width: 200px;height: 80px;text-indent: -9999px;background-image: url("../image/logoxz.png");background-repeat: no-repeat;}
+.header .slogo a {display: block;width: 200px;height: 80px;margin-top:-12px;text-indent: -9999px;background-image: url("https://sxac.lshnhn.cn/static/image/0_logo.png");background-repeat: no-repeat;}
+.header .softlogo a {display: block;width: 200px;height: 80px;text-indent: -9999px;background-image: url("https://sxac.lshnhn.cn/static/image/51_logo.png");background-repeat: no-repeat;}
+.header .fslogo a {display: block;width: 200px;height: 80px;text-indent: -9999px;background-image: url("https://sxac.lshnhn.cn/static/image/fs_logo.png");background-repeat: no-repeat;}
+/*专为soft.51xiazai.cn写的*/
+.header .fiveone_logo a {display: block;width: 200px;height: 80px;text-indent: -9999px;background-image: url("https://sxac.lshnhn.cn/static/image/51_logo.png");background-repeat: no-repeat;}
+/*软件logo*/
+.header .miiyun_logo,
+.header .ruanjian_logo {
+    margin: 0 15px 0 0;
+    display: block;
+    width: 120px;
+    height: 41px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-size: 120px 100%;
+}
+.header .miiyun_logo {background-image: url("../image/logoxz.png");}
+.header .ruanjian_logo {background-image: url("https://sxac.lshnhn.cn/static/image/ruanjian_logo.png");}
+
+.header form#cse-search-box {position: absolute;top:25%;right:0px;}
+.header form .form-group {display: inline-block;width: 459px;height: 39px;overflow: hidden;padding-bottom: 5px}
+.header form .form-group .form-control {padding: 0px 12px;float: left;width: 363px;height: 35px;border-radius: 4px 0 0 4px;line-height: 35px;border:2px solid #0199dc;color:#999;}
+.header form .form-group .btn-default {border: none;width: 68px;height: 39px;border-radius: 0px 4px 4px 0px;color: #fff;cursor: pointer;background-color:#0199dc;}
+.header form .hotSearch{width: 459px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+/*精品推荐*/
+@import 'https://soft7.ydxiazai.com/src_sem/css/swiper.min.css';
+.inRec{margin:9px 0 0 0;border:1px solid #eee;position:relative;}
+.inRec dt{font-size:0;text-indent:-999px;position:absolute;left:-1px;top:-1px;width:43px;height:43px;background:url(https://soft7.ydxiazai.com/images/game/icon/jpicon.png) 0 0 no-repeat;overflow:hidden;}
+.inRec dd{padding-bottom:4px;}
+.ppShow{padding:18px 0 12px 3px;}
+.ppShow li{float:left;padding:0 0 0 28px;text-align:center;height:80px;overflow:hidden;width:82px;}
+.ppShow li a{display:block;color:#333}
+.ppShow li img{width:64px;height:64px;display:block;margin-left: auto;margin-right: auto;-webkit-border-radius: 10px;border-radius: 10px;}
+.ppShow li a:hover img{border-color:#f90;}
+.ppphoneShow li{width: 74px;height:60px;}
+.ppphoneShow li img{width:60px;height:60px;object-fit:cover;display:block;margin-bottom:2px;}
+.inRec p{line-height:38px;height:38px;overflow:hidden;}
+.inRec dd p.clo{background:#f5f5f5;}
+.inRec dd p:hover{background:#eee;}
+.inRec dd p:hover b{background-position:0 -22px;color:#fff;}
+.inRec p:hover b a{color:#fff;}
+.inRec p b{float:left;display:inline;margin:8px 0 0 25px;font-weight:normal;width:64px;height:22px;line-height:22px;line-height:23px;overflow:hidden;background:url(https://soft7.ydxiazai.com/images/game/icon/litem0.gif) 0 0 no-repeat;text-indent:6px;}
+.inRec p b a{color:#008de2;}
+.inRec p span a{padding:0 11px;border-right:1px solid #ccc;}
+.inRec p span a:last-child{border:none;}
+.inRec p span.hotclo{display: inline-block;width: 940px;position: relative;}
+.inRec p span.hotclo em{height: 38px;overflow: hidden;display: block;text-overflow: ellipsis;white-space: nowrap;}
+.inRec p span.hotclo em a:last-child{border:none;}
+
+/*装机必备轮播*/
+.fsilder{position: relative;height: 240px;}
+.fsilder .img li{position: absolute;left: 0;top:0;display: none;}
+.fsilder .img li.cur{z-index: 1;display: block;}
+.fsilder .img li img{width: 400px;height: 210px;display: block;object-fit: cover;}
+.fsilder .img li p{position: absolute;bottom: 0;width:100%;height: 30px;line-height: 30px;text-align: center;color:#fff;background-color: rgba(0,0,0,.5);}
+.fsilder .imgBtn{position: absolute;top: 75px;width: 26px;line-height: 54px;font-size:30px;text-align: center;height: 54px;z-index: 2;background-color:rgba(0,0,0,.3);color:#FFF;font-family:"宋体";cursor:pointer;}
+.fsilder .imgBtn.btnnext{left: 0;-webkit-border-radius: 0 26px 26px 0;border-radius: 0 26px 26px 0;}
+.fsilder .imgBtn.btnprev{right: 0;-webkit-border-radius: 26px 0 0 26px;border-radius: 26px 0 0 26px;}
+.fsilder .imgnav{position: absolute;bottom: 0;text-align: center;width: 100%;}
+.fsilder .imgnav span{display: inline-block;width: 12px;height: 12px;background-color: #E5E5E5;-webkit-border-radius: 50%;border-radius: 50%;cursor:pointer;}
+.fsilder .imgnav span.cur{background-color:#288bde;}
+.neceItem .lunbo, .neceItem .fsilder{width: 700px;height: 300px;}
+.neceItem .fsilder .img li{display:none;}
+.neceItem .fsilder .img li img {width: 700px;height: 300px;display: block;object-fit: cover;}
+.neceItem .fsilder .img li p {text-align: left;padding-left: 10px;box-sizing: border-box;}
+.neceItem .fsilder .imgnav {width: auto;right: 5px;z-index: 200;bottom: 5px;vertical-align: middle;}
+.neceItem .fsilder .imgBtn {top: 120px;}
+.neceItem .fsilder .imgnav span { margin-right: 5px;}
+.neceItem .rightImg {width: 315px;height: 300px;margin-bottom: -10px;}
+.neceItem .rightImg .liItem{ height: 145px;margin-bottom: 10px;position: relative}
+
+.neceItem .rightImg .liItem img{width: 315px;height: 145px;display: block;object-fit: cover;}
+.neceItem .liItem p {position: absolute;height: 30px;line-height: 30px; background-color: rgba(0, 0, 0, 0.3);color: #fff;bottom: 0px; width: 100%;}
+.neceItem .fsilder .img .cur{display:block !important;}
+
+/*装机必备的装机必备*/
+.neceApplistWrap {width: 1036px;border: 1px solid #e3e3e3;margin: 20px 0;border-radius: 3px; background: #fefefe;}
+.neceApplistWrap .listH {border-bottom: 1px solid #e3e3e3;padding: 5px 10px;overflow: hidden;background: #F9F9F9;}
+.neceApplistWrap .listH h3{float: left;margin-left: 10px;color: #515151;font-size: 18px;height: 29px;line-height: 29px;}
+.neceApplistWrap .listCon {margin-left: 25px;padding-bottom: 25px;}
+.neceApplistWrap .listCon h5 {font-weight: 400;color: #2f2e2e;}
+.neceApplistWrap .listCon h5:hover {font-weight: 900;}
+.neceApplistWrap .listCon h5 a {height: 28px;line-height: 28px;color: #2f2e2e;}
+.neceApplistWrap .listCon h5 a, .neceApplistWrap .listCon p a {display: inline-block;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.neceApplistWrap .listCon p a {color: #707070;}
+.recbox .corner li{float: left;width: 90px;overflow: hidden;margin-right: 20px;margin-top: 29px;margin-bottom: 6px;}
+.recboxHot .corner li{margin-right: 28px;}
+/*装机必备之常用电脑软件*/
+.normalSoft .title, .blogroll .title {height: 39px;border-bottom: 3px solid #e5e5e5;}
+.normalSoft .title h4, .pcGanme .col-ab .title h4, .blogroll .title h4 {height: 30px;line-height: 30px;color: #008ce1;padding-left: 10px;font: 28px/28px Microsoft Yahei;}
+.normalSoft .normalCon {border-left: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;width: 100%;overflow: hidden;}
+.normalSoft .normalCon .pics{float: left;width: 172px;border-right: 1px solid #e5e5e5;}
+.normalSoft .pics a{color:#575757;}
+.normalSoft .pics li {word-break: break-all;display: block;overflow: hidden;padding: 0 10px 0 19px;height: 45px;padding: 0 10px 0 19px;border-bottom: 1px solid #e5e5e5;float: none;display: block;overflow: hidden;}
+.normalSoft .normalCon .pics li.first{height: 35px;line-height: 35px;background: #f4f4f4;color: #288bde;font-size: 17px;text-align: center;border-bottom: none;}
+.normalSoft .normalCon .pics .first a {color: #008EE2;}
+.normalSoft .normalCon .pics li.nbd {border: none;}
+.normalSoft .normalCon .pics li a {overflow: hidden;zoom: 1;}
+.normalSoft .pics .img-area {overflow: hidden;position: relative;display: inline-block;zoom: 1;width: 20px;height: 20px;margin: 12px 10px 0 0;line-height: 0;float: left;}
+.normalSoft .normalCon .img-area img {vertical-align: top;}
+.normalSoft .normalCon .tit {line-height: 45px;font-size: 14px;}
